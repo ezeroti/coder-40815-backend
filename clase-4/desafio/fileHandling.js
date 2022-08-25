@@ -91,10 +91,10 @@ async function withOrder() {
         await fileName.getAll();
 
         // Genero el archivo nuevamente sin el objeto con id 3
-        await fileName.deleteById(3);
+        //await fileName.deleteById(3);
 
         // Borro todo el contenido del archivo
-        await fileName.deleteAll();
+        //await fileName.deleteAll();
   }
 
   withOrder();

@@ -85,13 +85,13 @@ async function withOrder() {
         });
 
         // Existe, retorna el objeto
-        await fileName.getById(2);
+        //await fileName.getById(2);
 
         // Devuelvo un array de objetos
-        await fileName.getAll();
+        //await fileName.getAll();
 
         // Genero el archivo nuevamente sin el objeto con id 3
-        //await fileName.deleteById(3);
+        await fileName.deleteById(3);
 
         // Borro todo el contenido del archivo
         //await fileName.deleteAll();
